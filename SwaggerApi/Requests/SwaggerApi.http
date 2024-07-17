@@ -3,20 +3,20 @@
 
 GET {{SwaggerApi_HostAddress}}/api/todos
 Accept: application/json
-correlationId: "71fbb6b3-fd14-4f8e-b7be-8a41b4840cf8"
+CorrelationId: "71fbb6b3-fd14-4f8e-b7be-8a41b4840cf8"
 
 ###
 
 GET {{SwaggerApi_HostAddress}}/api/todos/{{Id}}
 Accept: application/json
-correlationId: "71fbb6b3-fd14-4f8e-b7be-8a41b4840cf8"
+CorrelationId: "71fbb6b3-fd14-4f8e-b7be-8a41b4840cf8"
 
 ###
 
 POST {{SwaggerApi_HostAddress}}/api/todos
 Accept: application/json
 Content-Type: application/json
-correlationId: "71fbb6b3-fd14-4f8e-b7be-8a41b4840cf8"
+CorrelationId: "71fbb6b3-fd14-4f8e-b7be-8a41b4840cf8"
 
 {
   "id": 11,
@@ -28,6 +28,6 @@ correlationId: "71fbb6b3-fd14-4f8e-b7be-8a41b4840cf8"
 
 DELETE {{SwaggerApi_HostAddress}}/api/todos/{{Id}}
 Accept: application/json
-correlationId: "71fbb6b3-fd14-4f8e-b7be-8a41b4840cf8"
+CorrelationId: "71fbb6b3-fd14-4f8e-b7be-8a41b4840cf8"
 
 ###
