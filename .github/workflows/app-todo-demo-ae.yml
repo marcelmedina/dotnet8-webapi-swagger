@@ -4,7 +4,7 @@ on:
     branches:
     - main
 env:
-  AZURE_WEBAPP_NAME: app-todo-demo-prod-ae
+  AZURE_WEBAPP_NAME: app-todo-demo-ae
   AZURE_WEBAPP_PACKAGE_PATH: ./publish
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 8.0.x
@@ -44,5 +44,5 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        publish-profile: ${{ secrets.APP_TODO_DEMO_PROD_AE }}
+        publish-profile: ${{ secrets.APP_TODO_DEMO_AE_8BE3 }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
