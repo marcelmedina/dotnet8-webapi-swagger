@@ -44,5 +44,5 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        publish-profile: ${{ secrets.app_todo_demo_ae_8BE3 }}
+        publish-profile: ${{ secrets.APP_TODO_DEMO_DEV_AE }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
